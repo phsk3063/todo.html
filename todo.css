@@ -1,0 +1,91 @@
+body{
+background:linear-gradient(155deg,#d161ff,#8052ec);
+font-family:Arial, Helvetica;
+
+}
+
+.container{
+width:340px;
+height:465px;
+border:4px solid white;
+margin-left:500px;
+margin-top:20px;
+border-radius:5%;
+box-shadow:4px 7px 10px black;
+
+}
+
+
+h1{
+margin-left:573px;
+margin-top:50px;
+font-size:44px;
+text-shadow:2px 1px 1px orange;
+
+}
+
+#inputfield{
+height:35px;
+width:235px;
+margin-left:22px;
+margin-top:30px;
+font-size:20px;
+padding-left:7px;
+
+}
+
+
+#inputfield:hover{
+
+border:2px solid black;
+box-shadow:3px 4px 5px black;
+
+}
+
+
+#addtodo{
+margin-left:13px;
+height:39px;
+width:34px;
+margin-top:-20px;
+font-size:27px;
+box-shadow:3px 4px 5px black;
+cursor:pointer;
+transition:0.21s;
+
+}
+
+#addtodo:hover{
+border:2px solid black;
+color:lightgray;
+background:black;
+box-shadow:3px 4px 5px black;
+
+}
+
+#addtodo:active{
+transform:scale(0.65);
+
+}
+
+.to-dos{
+width:300px;
+height:330px;
+margin-left:20px;
+margin-top:33px;
+border-radius:6px;
+background:#fca120;
+box-shadow:3px 5px 6px black;
+}
+
+.style{
+margin:4px;
+cursor:pointer;
+font-size:21px;
+font-weight:bold;
+color:white;
+padding-left:8px;
+padding-top:4.4px;
+}
+
+
